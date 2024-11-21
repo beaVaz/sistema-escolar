@@ -3,9 +3,11 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
   tituloPrincipal: {
     fontFamily: "Roboto_500Medium",
-    fontSize: "5em", 
-    fontWeight: "700",
-    color: "#5448C8",
+    fontSize: "4em", 
+    fontWeight: "600",
+    color: "aliceblue",
+    textTransform:"uppercase",
+    letterSpacing:"2px"
   },
 
   tituloReportCard: {
