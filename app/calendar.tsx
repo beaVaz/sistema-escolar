@@ -16,20 +16,21 @@ export default function Calendar() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Calendário Escolar</Text>
       <View style={styles.textContainer}>
+      <Text style={styles.title}>Calendário Escolar</Text>
         <Text style={styles.text}>
           Este é o calendário escolar da sua escola! Clique no botão abaixo para fazer o download.
         </Text>
-      </View>
-
-      
+        
       <Pressable
         style={styles.downloadButton}
         onPress={() => Linking.openURL(calendarioURL)}
-      >
-        <Text style={styles.downloadButtonTexto}>Baixe aqui o seu calendário escolar</Text>
+      > <Text style={styles.downloadButtonTexto}>Baixe aqui o seu calendário escolar</Text>
       </Pressable>
+
+      </View>
+
+      
     </SafeAreaView>
   );
 }
@@ -45,11 +46,12 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     fontWeight: "bold",
-    color: "aliceblue",
+    color: "#5448C8",
     marginBottom: 20,
     textTransform: "uppercase",
   },
   textContainer: {
+
     backgroundColor: "#FFFFFF", 
     padding: 50,
     borderRadius: 10,
@@ -58,7 +60,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2, 
     shadowRadius: 4, 
     elevation: 5, 
-    width: 600, 
+    width: "80%", 
     marginBottom: 20,
     alignItems: "center", 
   },

@@ -14,7 +14,7 @@ export default StyleSheet.create({
     alignItems: "center",
   },
   card: {
-    width: "100%", 
+    width: "80%", 
     maxWidth: 500, 
     backgroundColor: "#FFFFFF",
     padding: 25,

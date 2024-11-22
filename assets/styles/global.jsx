@@ -10,46 +10,53 @@ export default StyleSheet.create({
     letterSpacing:"2px"
   },
 
-  tituloReportCard: {
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 20,
-    marginTop: 20,
+  container: {
+    flex: 1,
+    backgroundColor: "#5448C8",
+    padding: 10,
+  },
+  titulo: {
+    fontSize: 50,
+    fontWeight: "700",
     textAlign: "center",
-    color: "#333",
+    marginBottom: 20,
+    marginTop:50,
+    color: "aliceblue",
+    textTransform:"uppercase",
+  },
+  row: {
+    justifyContent: "space-between", 
+    marginBottom: 10,
   },
   card: {
-    backgroundColor: "#fff",
+    flex: 1,
+    backgroundColor: "aliceblue",
+    borderRadius: 10,
     padding: 15,
-    marginVertical: 10,
-    borderRadius: 8,
+    marginHorizontal: 5,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 4,
-    elevation: 3,
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5, 
+    alignItems: "center",
   },
   disciplina: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: "bold",
-    color: "#333",
+    color: "#5448C8",
+    marginBottom: 10,
   },
   nota: {
-    fontSize: 16,
-    color: "#666",
-    marginVertical: 5,
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#5448C8",
   },
   status: {
-    fontSize: 16,
-    fontWeight: "bold",
-  },
-  mb: {
-    color: "green", 
-  },
-  r: {
-    color: "red",
-  },
-  b:{
-    color: "blue",
+    fontSize: 14,
+    color: "#5448C8",
+    marginTop: 10,
   },
 });
+ 
+
