@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# Sistema Escolar
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Descrição
+O **Sistema Escolar** Desenvolvido para facilitar a gestão das informações escolares. Através de uma interface simples e intuitiva, o aplicativo oferece aos alunos, acesso a funcionalidades como boletim escolar, calendário, eventos e contatos da escola.
 
-## Get started
+## Funcionalidades
+O aplicativo inclui as seguintes funcionalidades:
 
-1. Install dependencies
+- **Home**: Tela inicial com mensagem de boas-vindas e links rápidos para outras páginas.
+- **Boletim**: Exibição do boletim escolar com disciplinas, notas e avaliação de desempenho. O sistema utiliza lógica condicional para categorizar os resultados (Muito Bom, Bom, Regular).
+- **Calendário**: Exibição do calendário escolar com a opção de download em PDF. 
+- **Eventos**: Lista de eventos escolares com título, descrição e data.
+- **Contatos**: Exibe ícones e links interativos para WhatsApp, telefone e Instagram, facilitando a comunicação com a escola.
+- **Menu Lateral**: Navegação entre páginas utilizando a biblioteca **Drawer**.
 
+## Tecnologias Utilizadas
+
+- **React Native**: Framework para desenvolvimento de aplicativos móveis.
+- **Expo**: Plataforma para executar desenvolvimento com React Native.
+- **Bibliotecas**:
+  - `expo-google-fonts/roboto`: Para usar fonte personalizada.
+  - `react-native-svg`: Ícones e vetores (SVG).
+  - `expo-linking`: Links interativos dentro do aplicativo.
+  - `react-navigation`: Para navegação entre telas.
+  - `react-navigation-drawer`: Para a criação do menu lateral (Drawer).
+  - `flatList`: Componente utilizado para renderizar a lista de disciplinas e suas respectivas notas e status.
+
+
+## Instalação e Execução
+ **node_modules** npm install.
+ **inciar** npm start.
+
+1. **Clone o repositório**:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/beaVaz/sistema-escolar.git
+   cd sistema-escolar
