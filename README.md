@@ -28,7 +28,7 @@ O aplicativo inclui as seguintes funcionalidades:
 
 ## Instalação e Execução
  - `node_modules`: npm install.
- - `inciar`: npm start.
+ - `iniciar`: npm start.
 
 1. **Clone o repositório**:
    ```bash
